@@ -28,7 +28,7 @@ By leveraging **advanced computer vision**, **signal processing**, and **cloud-b
 ## 🚀 Why Use the Nervoscan-js SDK?
 
 - **Seamless Integration:** Add contactless health measurements to your app without the need for wearables or external hardware.  
-- **Real-time Streaming Support:** Monitor users live using WebSocket-powered streaming.  
+- **Real-time Streaming Support:** Stream video data in real-time using WebSocket-powered infrastructure.  
 - **Video Upload Workflow:** Analyze pre-recorded videos asynchronously via API.  
 - **Developer-Friendly:** Clean TypeScript typings, clear error handling, and modular design patterns.  
 - **Reliable Results:** Backed by Nervotec’s proprietary algorithms and cloud infrastructure.  
@@ -67,4 +67,4 @@ By leveraging **advanced computer vision**, **signal processing**, and **cloud-b
 ## 🚩 Get Started Quickly
 
 ```bash
-npm install nervoscan-js-sdk@1.0.4
+npm install nervoscan-js-sdk@1.0.8

@@ -8,7 +8,7 @@
 
 > `const` **Errors**: `object`
 
-Defined in: [Documents/Nervotec/docusaurus/nervoscan-js/src/api/utils/errors.ts:218](https://github.com/nervotec/nervoscan-js/blob/a3e202b0aed347d51c982d0e67d7d962d141bec3/src/api/utils/errors.ts#L218)
+Defined in: [utils/errors.ts:218](https://github.com/nervotec/nervoscan-js/blob/a3e202b0aed347d51c982d0e67d7d962d141bec3/src/api/utils/errors.ts#L218)
 
 Collection of all Nervoscan error classes.
 

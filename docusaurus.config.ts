@@ -11,11 +11,11 @@ const config: Config = {
     v4: true,
   },
 
-  url: 'https://Jayasanka-madhawa.github.io',
-  baseUrl: '/docusaurus/',
+  url: 'https://your-docusaurus-site.example.com',
+  baseUrl: '/',
 
-  organizationName: 'Jayasanka-madhawa', // GitHub username
-  projectName: 'docusaurus',      
+  organizationName: 'facebook',
+  projectName: 'docusaurus',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -57,6 +57,7 @@ const config: Config = {
           position: 'left',
           label: 'javascript/typescript',  // ✅ Renamed from Tutorial
         },
+
       ],
     },
     footer: {

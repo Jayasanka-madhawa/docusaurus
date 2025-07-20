@@ -6,7 +6,7 @@
 
 # Class: Client
 
-Defined in: [Documents/Nervotec/docusaurus/nervoscan-js/src/api/Client.ts:12](https://github.com/nervotec/nervoscan-js/blob/a3e202b0aed347d51c982d0e67d7d962d141bec3/src/api/Client.ts#L12)
+Defined in: [Client.ts:12](https://github.com/nervotec/nervoscan-js/blob/a3e202b0aed347d51c982d0e67d7d962d141bec3/src/api/Client.ts#L12)
 
 Client class for interacting with the Nervoscan API.
 This class provides methods for authentication, video upload, and result retrieval.
@@ -17,7 +17,7 @@ This class provides methods for authentication, video upload, and result retriev
 
 > **checkResults**(`jobID`): `Promise`\<`any`\>
 
-Defined in: [Documents/Nervotec/docusaurus/nervoscan-js/src/api/Client.ts:108](https://github.com/nervotec/nervoscan-js/blob/a3e202b0aed347d51c982d0e67d7d962d141bec3/src/api/Client.ts#L108)
+Defined in: [Client.ts:108](https://github.com/nervotec/nervoscan-js/blob/a3e202b0aed347d51c982d0e67d7d962d141bec3/src/api/Client.ts#L108)
 
 Checks the status of a video processing job.
 ⚠️ This function is deprecated and will be removed in a future version.
@@ -62,7 +62,7 @@ If the password is invalid. The user should reinitialize the client with the cor
 
 > **getResults**(`jobID`): `Promise`\<`any`\>
 
-Defined in: [Documents/Nervotec/docusaurus/nervoscan-js/src/api/Client.ts:136](https://github.com/nervotec/nervoscan-js/blob/a3e202b0aed347d51c982d0e67d7d962d141bec3/src/api/Client.ts#L136)
+Defined in: [Client.ts:136](https://github.com/nervotec/nervoscan-js/blob/a3e202b0aed347d51c982d0e67d7d962d141bec3/src/api/Client.ts#L136)
 
 Retrieves the results for a completed video processing job.
 ⚠️ This function is deprecated and will be removed in a future version.
@@ -111,7 +111,7 @@ If the password is invalid. The user should reinitialize the client with the cor
 
 > **initialize**(`username`, `password`, `serverType`): `void`
 
-Defined in: [Documents/Nervotec/docusaurus/nervoscan-js/src/api/Client.ts:55](https://github.com/nervotec/nervoscan-js/blob/a3e202b0aed347d51c982d0e67d7d962d141bec3/src/api/Client.ts#L55)
+Defined in: [Client.ts:55](https://github.com/nervotec/nervoscan-js/blob/a3e202b0aed347d51c982d0e67d7d962d141bec3/src/api/Client.ts#L55)
 
 Initializes the client with user credentials and sets the backend URL.
 
@@ -149,7 +149,7 @@ If the server type is invalid
 
 > **initializeStreaming**(`videoStream`, `videoElement`): `void`
 
-Defined in: [Documents/Nervotec/docusaurus/nervoscan-js/src/api/Client.ts:185](https://github.com/nervotec/nervoscan-js/blob/a3e202b0aed347d51c982d0e67d7d962d141bec3/src/api/Client.ts#L185)
+Defined in: [Client.ts:185](https://github.com/nervotec/nervoscan-js/blob/a3e202b0aed347d51c982d0e67d7d962d141bec3/src/api/Client.ts#L185)
 
 Initializes the streaming manager.
 
@@ -177,7 +177,7 @@ The video element to stream to
 
 > **setOnDisconnection**(`callback`): `void`
 
-Defined in: [Documents/Nervotec/docusaurus/nervoscan-js/src/api/Client.ts:176](https://github.com/nervotec/nervoscan-js/blob/a3e202b0aed347d51c982d0e67d7d962d141bec3/src/api/Client.ts#L176)
+Defined in: [Client.ts:176](https://github.com/nervotec/nervoscan-js/blob/a3e202b0aed347d51c982d0e67d7d962d141bec3/src/api/Client.ts#L176)
 
 Sets a callback function to handle disconnection.
 
@@ -199,7 +199,7 @@ Function to be called when the connection is lost. Takes no parameters.
 
 > **setOnError**(`callback`): `void`
 
-Defined in: [Documents/Nervotec/docusaurus/nervoscan-js/src/api/Client.ts:168](https://github.com/nervotec/nervoscan-js/blob/a3e202b0aed347d51c982d0e67d7d962d141bec3/src/api/Client.ts#L168)
+Defined in: [Client.ts:168](https://github.com/nervotec/nervoscan-js/blob/a3e202b0aed347d51c982d0e67d7d962d141bec3/src/api/Client.ts#L168)
 
 Sets a callback function to handle errors.
 
@@ -221,7 +221,7 @@ Function to be called with error. Takes a single parameter of type any containin
 
 > **setOnFinalResults**(`callback`): `void`
 
-Defined in: [Documents/Nervotec/docusaurus/nervoscan-js/src/api/Client.ts:160](https://github.com/nervotec/nervoscan-js/blob/a3e202b0aed347d51c982d0e67d7d962d141bec3/src/api/Client.ts#L160)
+Defined in: [Client.ts:160](https://github.com/nervotec/nervoscan-js/blob/a3e202b0aed347d51c982d0e67d7d962d141bec3/src/api/Client.ts#L160)
 
 Sets a callback function to handle final averaged results when they arrive.
 
@@ -243,7 +243,7 @@ Function to be called with final results. Takes a single parameter of type any c
 
 > **setOnWindowResults**(`callback`): `void`
 
-Defined in: [Documents/Nervotec/docusaurus/nervoscan-js/src/api/Client.ts:152](https://github.com/nervotec/nervoscan-js/blob/a3e202b0aed347d51c982d0e67d7d962d141bec3/src/api/Client.ts#L152)
+Defined in: [Client.ts:152](https://github.com/nervotec/nervoscan-js/blob/a3e202b0aed347d51c982d0e67d7d962d141bec3/src/api/Client.ts#L152)
 
 Sets a callback function to handle window-based results as they arrive.
 
@@ -265,7 +265,7 @@ Function to be called with window results. Takes a single parameter of type any 
 
 > **startStreaming**(): `Promise`\<`any`\>
 
-Defined in: [Documents/Nervotec/docusaurus/nervoscan-js/src/api/Client.ts:197](https://github.com/nervotec/nervoscan-js/blob/a3e202b0aed347d51c982d0e67d7d962d141bec3/src/api/Client.ts#L197)
+Defined in: [Client.ts:197](https://github.com/nervotec/nervoscan-js/blob/a3e202b0aed347d51c982d0e67d7d962d141bec3/src/api/Client.ts#L197)
 
 Starts streaming the video to the server.
 
@@ -299,7 +299,7 @@ If the password is invalid. The user should reinitialize the client with the cor
 
 > **stopStreaming**(): `void`
 
-Defined in: [Documents/Nervotec/docusaurus/nervoscan-js/src/api/Client.ts:215](https://github.com/nervotec/nervoscan-js/blob/a3e202b0aed347d51c982d0e67d7d962d141bec3/src/api/Client.ts#L215)
+Defined in: [Client.ts:215](https://github.com/nervotec/nervoscan-js/blob/a3e202b0aed347d51c982d0e67d7d962d141bec3/src/api/Client.ts#L215)
 
 Stops streaming the video to the server.
 
@@ -313,7 +313,7 @@ Stops streaming the video to the server.
 
 > **uploadVideo**(`videoBlob`): `Promise`\<`any`\>
 
-Defined in: [Documents/Nervotec/docusaurus/nervoscan-js/src/api/Client.ts:78](https://github.com/nervotec/nervoscan-js/blob/a3e202b0aed347d51c982d0e67d7d962d141bec3/src/api/Client.ts#L78)
+Defined in: [Client.ts:78](https://github.com/nervotec/nervoscan-js/blob/a3e202b0aed347d51c982d0e67d7d962d141bec3/src/api/Client.ts#L78)
 
 Uploads a video and returns the API key.
 
@@ -365,7 +365,7 @@ If the password is invalid. The user should reinitialize the client with the cor
 
 > `static` **getInstance**(): `Client`
 
-Defined in: [Documents/Nervotec/docusaurus/nervoscan-js/src/api/Client.ts:41](https://github.com/nervotec/nervoscan-js/blob/a3e202b0aed347d51c982d0e67d7d962d141bec3/src/api/Client.ts#L41)
+Defined in: [Client.ts:41](https://github.com/nervotec/nervoscan-js/blob/a3e202b0aed347d51c982d0e67d7d962d141bec3/src/api/Client.ts#L41)
 
 Gets the singleton instance of the Client class.
 
