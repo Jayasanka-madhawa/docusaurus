@@ -67,4 +67,4 @@ By leveraging **advanced computer vision**, **signal processing**, and **cloud-b
 ## 🚩 Get Started Quickly
 
 ```bash
-npm install nervoscan-js-sdk@1.0.8
+npm install nervoscan-js-sdk
